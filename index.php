@@ -4,9 +4,10 @@
 	<!-- meta data -->
 	<?php include_once('meta.php');  ?>
 	<!-- scripts.....jquery, popper.js, bootstrap.min.js  -->
+	<!-- ALWAYS make sure your jQUERY is loaded first before your bootstrap -->
 	<?php include_once('scripts_bootstrapJqueryPopper.php');  ?>
 
-	<!-- links.....font-families, css/bootstrap.css, and styles.css  -->
+	<!-- links.....font-families, bootstrapCDN, and styles.css  -->
 	<?php include_once('links_style.php');  ?>
 
 	<title>workin with bootstrap</title>
