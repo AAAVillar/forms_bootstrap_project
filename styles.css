@@ -6,123 +6,53 @@
 	padding:0px;
 }
 
+
 body{
-	background:rgb(64,0,0);
-	color:navy;
-	padding:0px 10px;
-	margin:0px 10px;
-	font-family: 'IM Fell English SC', serif;
-	font-size:1.5em;
-	
-}
-
-#bigWrapper{
-	background:rgb(64,0,0);
-	color:white;
-	text-shadow:2px 2px 1px black;
-	padding:0px 20px;
-	margin:0px 10px;
-	font-family: 'IM Fell English SC', serif;
-}
-label{
-	background:rgb(64,0,0);
-	border:3px solid yellow;
-}
-#demo1{
-	text-align:center;
-	font-family: 'Tangerine', cursive;
-	padding-top:4px;
-	letter-spacing: 3px;
-	
-}
-
-#form_1{
-	border:2px solid rgba(0,0,0,.6);
-	background:background:rgb(60,0,0);
-	padding:0px 10px;
-	margin:0px 10px;
-	font-family: 'IM Fell English SC', serif;
-}
-
-#fieldset_1{
-	
-	background:url('bookRack.png');
-	
-	
-	border:2px solid rgba(0,0,0,.6);
-	padding:0px 10px;
-	margin:0px 10px;
-}
-
-#legend_1{
-	background:rgba(64,0,0,.6);
-	color:white;
-	text-align:center;
-	font-size:1.2em;
-	border:3px solid yellow;
-	padding:0px 10px;
-	margin:0px 10px;
-	letter-spacing: 2px;
-}
-
-#input_name{
-	border:2px solid purple;
-	
-	padding:4px;
-	line-height:80%;
-	letter-spacing: 2px;
-	border:3px solid rgb(64,128,128);
-}
-
-#input_email{
-	border:2px solid blue;
-	padding:4px;
-	line-height:80%;
-	letter-spacing: 2px;
-	border:3px solid rgb(64,128,128);
-	
-}
-
-#input_pass{
-	border:2px solid green;
-	padding:4px;
-	line-height:80%;
-	letter-spacing: 2px;
-	border:3px solid rgb(64,128,128);
-}
-
-#input_phone{
-	border:2px solid blue;
-	padding:4px;
-	line-height:80%;
-	letter-spacing: 2px;
-	border:3px solid rgb(64,128,128);
-}
-#input_slug{
-	border:2px solid green;
-	padding:4px;
-	line-height:80%;
-	letter-spacing: 2px;
-	border:3px solid rgb(64,128,128);
-	
-}
-#input_submit{
-	background:rgba(64,0,0,.75);
-	color:white;
-	text-shadow:2px 2px 1px black;
-	border:3px solid yellow;
-	border-radius:12px;
-	padding:7px;
-	margin:0px 10px;
-	font-size:1.2em;
-	font-weight:bolder;
-	display:inline;
-	float:right;
-	line-height:80%;
-	font-family: 'IM Fell English SC', serif;
-	letter-spacing: 3px;
-}
-span{
-	font-size:1.4em;
+	background:url('img/lake_46.png')no-repeat center center fixed;
+	background-size:cover;
 	color:yellow;
+	text-shadow: 1px 1px 1px black;
+	padding:10px;
+	margin:5px;
+	font-family:tahoma;
+	
 }
+.my-border{
+	       border:3px solid red;
+	      }
+
+.main-section{
+	          margin:0px auto;
+              margin-top:10px;
+              padding:0px ; 
+              }
+
+
+.modal-content{
+	           background:rgba(0,0,0,.5);
+	         
+              }
+
+.user-img{
+
+	margin-top: -30px;
+	margin-bottom:35px;
+	border-radius:7px;
+}
+
+.form-group{
+	margin-bottom: 25px;
+}
+
+.my-text-shadow{text-shadow:1px 1px 1px black;}
+
+#dateDemo sub{
+font-family: 'Tangerine', cursive;
+color:blue;
+font-weight: bolder;
+text-shadow: 1px 1px 1px black;
+font-size:60px;
+letter-spacing: 3px;
+}
+
+.my-bg-purple{background:rgba(200,0,255,.5);}
