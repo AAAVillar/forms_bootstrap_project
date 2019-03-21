@@ -15,6 +15,8 @@
 <!-- End of div -->
 <body>
 	
+
+
 <h3 class="jumbotron text-center pt-0 pb-0 bg-info text-danger mt-1 mb-lg-auto my-text-shadow">Come On Kitty....We Need The Info</h3>
 <br class = "mb-3">
 
@@ -22,26 +24,14 @@
 		<div id= "div2" class="col-sm-8 main-section " >
 			<div id= "div2a" class="modal-content my-border" >
 				<div id= "div3" class="col-12 user-img " >
-					<img src="img/face.jpeg" alt = "kitty-kitty" class = "my-border">
+					<img src="img/face.jpeg" alt = "kitty-kitty" class = "my-border" title = "Don't Cry Kitty-Kitty" >
 				</div>  <!-- End of col-12 user-img Div -->
 
+                <!-- form -->
+                <?php include  'form.php'; ?>
 
-				<form class = "col-12 ">
-				<div id= "div4" class="form-group " >
-					<input type="text" class = "form-control my-border" name="Username" placeholder="Username" autocomplete = "off" required >
-				</div>  <!-- End of form-group Div -->
-
-				<div class="form-group">
-					<input type="email" class="form-control my-border" name="email" placeholder="Email" autocomplete = "off" required>
-                </div><!-- End of form-group Div -->
-
-				<div id= "div5" class="form-group" >
-					<input type="password" class = "form-control my-border" name="Enter password" placeholder="Password" autocomplete = "off" required>
-				</div>  <!-- End of form-group Div -->
-
-
-				<button type = "submit" class="btn text-light bg-primary my-text-shadow"><i class = "fas fa-sign-in-alt text-light my-text-shadow"></i>Login</button>
-				</form>
+                <!-- output from form php -->
+				<!--<?php include 'functionsPre_r.php'; ?>-->
 
 
 				<div id= "div6" class="col-12 forgot" >
@@ -55,5 +45,11 @@
 
 	<h3 id="dateDemo" class = "my-bg-purple text-center pb-3">Javascript is NOT CONNECTED</h3>
 	<script src = "main.js"></script>
+    <?php 
+     pre_r($_GET);
+
+    ?>
+
+
 </body>
 </html>
