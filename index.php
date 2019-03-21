@@ -46,8 +46,23 @@
 	<h3 id="dateDemo" class = "my-bg-purple text-center pb-3">Javascript is NOT CONNECTED</h3>
 	<script src = "main.js"></script>
     <?php 
+     pre_r($_POST);
      pre_r($_GET);
-
+     pre_r($_REQUEST);
+     if (isset($_POST['submit'])){
+     	echo "<div class = 'bg-danger text-light p-3'>";
+     	echo "User's First Name :".$_POST['FirstName']."<br>";
+     	echo "User's Last Name :".$_POST['LastName']."<br>";
+     	echo "User's Email :".$_POST['Email']."<br>";
+     	echo "User's Password :".$_POST['Password']."<br>";
+     	$x1 = $_POST['FirstName'];
+     	$x2 = $_POST['LastName'];
+     	$x3 = $_POST['Email'];
+     	$x4 = $_POST['Password'];
+     	echo "Will the kitty-kitty, with the name of ".$x1." ".$x2." who's email is ".$x3."<br>".
+     	"And who's password is :<span id = 'span1'>".$x4."</span> Please come to the principle's office";
+     	echo "</div>";
+     };
     ?>
 
 
