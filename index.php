@@ -28,10 +28,10 @@
 				</div>  <!-- End of col-12 user-img Div -->
 
                 <!-- form -->
-                <?php include  'form.php'; ?>
+                <?php include 'form.php'; ?>
 
                 <!-- output from form php -->
-				<!--<?php include 'functionsPre_r.php'; ?>-->
+				<?php include 'functionsPre_r.php'; ?>
 
 
 				<div id= "div6" class="col-12 forgot" >
